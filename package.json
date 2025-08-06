@@ -1,0 +1,36 @@
+{
+  "name": "modules-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --env development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --env production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taniachris8/modules-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taniachris8/modules-webpack/issues"
+  },
+  "homepage": "https://github.com/taniachris8/modules-webpack#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.3",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  }
+}
